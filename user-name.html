@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>login form</title>
+    <link rel="stylesheet"type="text/css"href="user.css">
+    <script type="text/javascript" src="Script.js"></script>
+</head>
+<body>
+    <div id="contact-form">
+        <img src="ph2.jpg" id="lo">
+        <h2>Tip calculator</h2>
+        <form>
+            <p>Bill:</p>
+            <input type="text" name="" placeholder="Enter bill here" id="Bill"><br>
+            <p>Service quality:</p><br>
+            <select id="qlt">
+             <option value="0.3">Excellent</option>
+             <option value="0.2">Medium</option>
+             <option value="0.1">Low</option>
+            </select><br>
+            <p>Number of people:</p>
+            <input type="text" name="" placeholder="Put number here" id="ppl">
+            <button class="btn" onclick="calculatetip()" type="button">Calculate</button> 
+            <p id="display">Result here:</p>			
+        
+        </form>
+    </div>
+</body>
+</html>    
